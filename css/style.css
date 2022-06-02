@@ -1,0 +1,530 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  color: #463c3a;
+  background-color: #ffffff;
+}
+
+.primary-color {
+  color: #04968c;
+}
+
+.secondary-color {
+  color: #747677;
+}
+
+.third-color {
+  color: #ffffff;
+}
+
+.fourth-color {
+  color: #efefef;
+}
+
+.unremarkable {
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 4px;
+}
+
+.unremarkable-titles {
+  font-weight: 400;
+  letter-spacing: 4px;
+}
+
+.unremarkable-about {
+  font-size: 28px;
+  font-weight: 400;
+  letter-spacing: 4px;
+}
+
+.highlighted-font {
+  font-weight: 900;
+}
+
+.paragraph {
+  line-height: 32px;
+}
+
+.menu {
+  text-align: end;
+  padding-right: 10px;
+  border-bottom: 1px solid #76777733;
+}
+
+.menu-item {
+  display: inline-block;
+  position: relative;
+  font-size: 1.2rem;
+  padding-left: 25px;
+}
+
+.menu-item a:link,
+.menu-item a:visited {
+  color: #463c3a;
+  text-decoration: none;
+}
+
+.menu-item a:hover {
+  color: #04968c;
+  text-decoration: underline;
+}
+.container-index {
+  display: flex;
+  max-width: 100%;
+  max-height: 100%;
+  padding: 10px 100px 0px 100px;
+  background-color: #ffffff;
+}
+
+.photo-container {
+  float: left;
+  margin: 5px 5px 0px 5px;
+}
+
+.image-index {
+  min-width: 100%;
+  width: 360px;
+  position: relative;
+  top: 6px;
+}
+
+.text-container {
+  text-align: justify;
+}
+
+.btn-center {
+  text-align: center;
+  padding-top: 60px;
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  text-decoration: none;
+  text-align: center;
+  white-space: nowrap;
+  padding: 0 40px;
+  font-size: 20px;
+  line-height: 55px;
+  background-color: #04968c;
+  height: 55px;
+  border-radius: 5px;
+  color: #efefef;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #046159;
+}
+
+.container-about {
+  display: flow-root;
+  max-width: 100%;
+  max-height: 100%;
+  padding: 10px 100px 130px 100px;
+  background-color: #046159;
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  color: #f5f5f5;
+  border-radius: 2px;
+}
+
+.container-projetcts {
+  display: flow-root;
+  max-width: 100%;
+  max-height: 100%;
+  padding: 0px 100px 50px 100px;
+  background-color: #efefef;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cell {
+  max-width: 28%;
+  box-shadow: 10px 5px 5px #858585;
+  border-radius: 6px;
+  text-align: center;
+  background-color: #ffffff;
+  color: #046159;
+  padding: 0px 10px 0px 10px;
+}
+
+.description-projects {
+  text-align: justify;
+}
+
+.cell:hover {
+  background-color: #04968c;
+  color: white;
+}
+
+.container-skills {
+  display: flow-root;
+  max-width: 100%;
+  max-height: 100%;
+  padding: 0px 100px 0px 100px;
+  text-align: center;
+}
+
+.container-skills label {
+  width: 280px;
+  display: inline-block;
+}
+
+.container-skills progress {
+  accent-color: #04968c;
+}
+
+.container-footer {
+  display: flow-root;
+  max-width: 100%;
+  max-height: 100%;
+  padding: 80px;
+  text-align: center;
+  background-color: #046159;
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  color: #f5f5f5;
+}
+
+.btn-arrow {
+  font-size: 3rem;
+  width: 58px;
+  height: 58px;
+  line-height: 58px;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  opacity: 0.6;
+}
+
+.btn-arrow:hover {
+  opacity: 1;
+}
+
+.fa-circle-arrow-up {
+  color: #04968c;
+}
+
+/* Media Queries */
+
+@media (min-width: 1183px) and (max-width: 1289px) {
+  body {
+    font-size: 20px;
+  }
+
+  .unremarkable-about {
+    font-size: 28px;
+    text-align: left;
+  }
+
+  .btn {
+    line-height: 50px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+
+  .btn-center {
+    text-align: center;
+    padding-top: 20px;
+    margin: 0px 0px 20px 0px;
+  }
+
+  .row {
+    font-size: 17px;
+  }
+}
+
+@media (min-width: 1076px) and (max-width: 1182px) {
+  body {
+    font-size: 20px;
+  }
+
+  .unremarkable-about {
+    font-size: 28px;
+    text-align: left;
+  }
+
+  .unremarkable {
+    font-size: 26px;
+  }
+
+  .container-index {
+    padding: 10px 100px 0px 50px;
+  }
+
+  .text-container {
+    text-align: justify;
+    padding: 10px;
+  }
+
+  .btn {
+    line-height: 50px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+
+  .btn-center {
+    text-align: center;
+    padding-top: 20px;
+    margin: 0px 0px 20px 0px;
+  }
+
+  .row {
+    font-size: 17px;
+  }
+}
+
+@media (min-width: 860px) and (max-width: 1075px) {
+  body {
+    font-size: 18px;
+  }
+
+  .unremarkable {
+    font-size: 24px;
+  }
+
+  .container-index {
+    padding: 10px 100px 0px 50px;
+  }
+
+  .text-container {
+    text-align: justify;
+    padding: 10px;
+  }
+
+  .btn {
+    line-height: 45px;
+    height: 45px;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+
+  .btn-center {
+    text-align: center;
+    padding-top: 20px;
+    margin: 0px 0px 20px 0px;
+  }
+
+  li {
+    font-size: 20px;
+  }
+
+  .container-about {
+    padding: 10px 50px 100px 50px;
+  }
+
+  .container-projetcts {
+    padding: 0px 50px 100px 50px;
+  }
+
+  .row {
+    font-size: 17px;
+  }
+
+  .unremarkable {
+    font-size: 25px;
+  }
+
+  .unremarkable-about {
+    font-size: 23px;
+    letter-spacing: 2px;
+  }
+
+  .description-projects {
+    text-align: center;
+  }
+
+  .container-footer {
+    padding: 60px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 859px) {
+  body {
+    font-size: 18px;
+  }
+
+  .container-index {
+    padding: 10px 40px 0px 40px;
+  }
+
+  .image-index {
+    min-width: 100%;
+    width: 310px;
+  }
+
+  .btn {
+    line-height: 40px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
+  .btn-center {
+    text-align: center;
+    padding-top: 10px;
+    margin: 0px 0px 20px 0px;
+  }
+
+  li {
+    font-size: 17px;
+  }
+
+  .container-about {
+    padding: 0px 40px 100px 40px;
+  }
+
+  .container-projetcts {
+    padding: 0px 10px 100px 10px;
+  }
+
+  .row {
+    font-size: 14px;
+  }
+
+  .unremarkable {
+    font-size: 21px;
+  }
+
+  .unremarkable-about {
+    font-size: 19px;
+    letter-spacing: 2px;
+  }
+
+  .description-projects {
+    text-align: center;
+  }
+
+  .cell {
+    max-width: 28%;
+    box-shadow: 3px 5px 5px #858585;
+    border-radius: 3px;
+  }
+
+  .container-footer {
+    font-size: 20px;
+    padding: 55px;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+  body {
+    font-size: 16px;
+  }
+
+  .menu {
+    padding-right: 3px;
+  }
+
+  .menu-item {
+    font-size: 1rem;
+    padding-left: 12px;
+  }
+
+  .container-index {
+    display: inline-block;
+    padding: 10px 40px 0px 40px;
+  }
+
+  .text-container {
+    display: inline-block;
+  }
+
+  .photo-container {
+    margin: 0;
+    float: none;
+    text-align: center;
+  }
+
+  .image-index {
+    min-width: 0;
+    width: 260px;
+    padding: 10px 10px 0px 10px;
+    box-shadow: 3px 3px 10px 5px #dddcdc;
+    border-radius: 3px;
+  }
+
+  .btn {
+    line-height: 35px;
+    height: 38px;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+
+  .btn-center {
+    text-align: center;
+    padding-top: 10px;
+    margin: 0px 0px 20px 0px;
+  }
+
+  li {
+    font-size: 17px;
+  }
+
+  .container-about {
+    padding: 0px 30px 100px 30px;
+  }
+
+  .container-projetcts {
+    float: left;
+    padding: 0px 10px 100px 10px;
+  }
+
+  .row {
+    display: block;
+    font-size: 14px;
+  }
+
+  .unremarkable {
+    font-size: 23px;
+  }
+
+  .unremarkable-about {
+    font-size: 19px;
+    text-align: left;
+    letter-spacing: 4px;
+  }
+
+  .highlighted-font {
+    font-size: 40px;
+  }
+
+  .description-projects {
+    text-align: center;
+  }
+
+  .cell {
+    max-width: 100%;
+    padding: 10px 10px 0px 10px;
+    box-shadow: 3px 5px 5px #858585;
+    border-radius: 3px;
+  }
+
+  .unremarkable-titles {
+    font-size: 38px;
+    letter-spacing: 4px;
+  }
+
+  .container-footer {
+    font-size: 18px;
+    padding: 50px;
+  }
+}
